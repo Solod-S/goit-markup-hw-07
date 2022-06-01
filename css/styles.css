@@ -236,6 +236,8 @@ footer a {
 .hero {
   padding-top: 200px;
   padding-bottom: 200px;
+  max-width: 1920px;
+  margin: 0 auto;
   text-align: center;
   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
     url(../images/hero.jpg);
@@ -405,6 +407,8 @@ footer a {
 
 .team {
   background-color: #f5f4fa;
+  max-width: 1920px;
+  margin: 0 auto;
 }
 
 .member {
@@ -663,6 +667,8 @@ footer a {
 
 footer {
   background-color: var(--secondary-bg-color);
+  max-width: 1920px;
+  margin: 0 auto;
   font-style: normal;
   padding-top: 60px;
   padding-bottom: 60px;
