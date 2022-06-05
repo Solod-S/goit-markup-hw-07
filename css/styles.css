@@ -1102,6 +1102,11 @@ address p {
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
   margin: -1px;
+
+  /* Или так прячем */
+  /* -webkit-appearance: none;
+      -moz-appearance: none;
+           appearance: none; */
 }
 .checkbox input:checked + .checkbox-span {
   background-image: url(../images/check.svg);
