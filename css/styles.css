@@ -23,11 +23,11 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-.navigation__list .current-page {
+.navigation__item--current-page {
   color: var(--primary-accent-color);
 }
 
-.navigation__menu-item .current-page::after {
+.navigation__item--current-page::after {
   content: '';
   position: absolute;
   bottom: -28px;
@@ -117,11 +117,11 @@ ul {
   padding: 0;
 }
 
-.navigation__menu-item {
+.navigation__item {
   position: relative;
 }
 
-.main-nav-link {
+.navigation__link {
   padding: 30px 0;
 }
 .navigation__menu {
@@ -190,8 +190,8 @@ ul {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.navigation__list .link:hover,
-.navigation__list .link:focus {
+.navigation__link:hover,
+.navigation__link:focus {
   color: var(--primary-accent-color);
 }
 
