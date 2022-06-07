@@ -19,32 +19,37 @@
   </head>
   <body>
     <!-- Шапка сайта -->
+     </head>
+  <body>
+    <!-- Шапка сайта -->
     <header>
-      <div class="container navigation">
-        <nav class="main-nav">
-          <a href="./index.html" class="logo"><span>Web</span>Studio</a>
-          <ul class="site-nav list">
-            <li class="main-nav-item">
-              <a href="./index.html" class="main-nav-link link">Студия</a>
+      <div class="navigation container">
+        <nav class="navigation__menu">
+          <a class="logo" href="./index.html"><span class="logo--pre-color">Web</span>Studio</a>
+          <ul class="navigation__list">
+            <li class="navigation__item">
+              <a class="navigation__link" href="./index.html">Студия</a>
             </li>
-            <li class="main-nav-item">
-              <a href="./portfolio.html" class="main-nav-link current-page link">Портфолио</a>
+            <li class="navigation__item navigation__item--current-page">
+              <a class="navigation__link navigation__link--current-page" href="./portfolio.html">Портфолио</a>
             </li>
-            <li class="main-nav-item"><a href="" class="main-nav-link link">Контакты</a></li>
+            <li class="navigation__item">
+              <a class="navigation__link" href="">Контакты</a>
+            </li>
           </ul>
         </nav>
-        <ul class="auth-nav list">
-          <li class="auth-nav-tell">
-            <a href="mailto:info@devstudio.com" class="auth-nav-link link">
-              <svg class="auth-nav-icon mail" width="16px" height="12px" aria-label="Почта">
+        <ul class="navigation__contact-list">
+          <li class="navigation__item">
+            <a class="navigation__link" href="mailto:info@devstudio.com">
+              <svg class="navigation__icon" width="16px" height="12px" aria-label="Почта">
                 <use href="./images/symbol-defs.svg#icon-mailto"></use>
               </svg>
               info@devstudio.com</a
             >
           </li>
-          <li class="auth-nav-mail">
-            <a href="tel:+380961111111" class="auth-nav-link link">
-              <svg class="auth-nav-icon tell" width="10px" height="16px" aria-label="Телефон">
+          <li class="navigation__item">
+            <a class="navigation__link" href="tel:+380961111111">
+              <svg class="navigation__icon" width="10px" height="16px" aria-label="Телефон">
                 <use href="./images/symbol-defs.svg#icon-tellto"></use>
               </svg>
               +38 096 111 11 11</a
