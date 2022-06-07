@@ -20,20 +20,22 @@
   <body>
     <!-- Шапка сайта -->
     <header>
-      <div class="container navigation">
-        <nav class="main-nav">
-          <a href="./index.html" class="logo"><span>Web</span>Studio</a>
-          <ul class="site-nav list">
-            <li class="main-nav-item">
+      <div class="navigation container">
+        <nav class="navigation__menu">
+          <a class="logo" href="./index.html"><span class="logo--pre-color">Web</span>Studio</a>
+          <ul class="navigation__list">
+            <li class="navigation__menu-item">
               <a href="./index.html" class="main-nav-link current-page link">Студия</a>
             </li>
-            <li class="main-nav-item">
+            <li class="navigation__menu-item">
               <a href="./portfolio.html" class="main-nav-link link">Портфолио</a>
             </li>
-            <li class="main-nav-item"><a href="" class="main-nav-link link">Контакты</a></li>
+            <li class="navigation__menu-item">
+              <a href="" class="main-nav-link link">Контакты</a>
+            </li>
           </ul>
         </nav>
-        <ul class="auth-nav list">
+        <ul class="auth-nav">
           <li class="auth-nav-tell">
             <a href="mailto:info@devstudio.com" class="auth-nav-link link">
               <svg class="auth-nav-icon mail" width="16px" height="12px" aria-label="Почта">
@@ -67,7 +69,7 @@
         <div class="container">
           <h2 class="visually-hidden">Наши особенности</h2>
           <!--Потом спрячем через стили-->
-          <ul class="list features-list">
+          <ul class="features-list">
             <li class="features-colum">
               <div class="features-icon-thmb">
                 <svg
@@ -128,16 +130,16 @@
       <section class="section">
         <div class="container">
           <h2 class="characteristic-title">Чем мы занимаемся</h2>
-          <ul class="list characteristic-list">
-            <li class="list characteristic-item">
+          <ul class="characteristic-list">
+            <li class="characteristic-item">
               <img class="characteristic-img" src="./images/box_1.jpg" alt="коддинг" width="370" />
               <p class="characteristic-text">Десктопные приложения</p>
             </li>
-            <li class="list characteristic-item">
+            <li class="characteristic-item">
               <img class="characteristic-img" src="./images/box_2.jpg" alt="мобайл" width="370" />
               <p class="characteristic-text">Мобильные приложения</p>
             </li>
-            <li class="list characteristic-item">
+            <li class="characteristic-item">
               <img class="characteristic-img" src="./images/box_3.jpg" alt="дизайн" width="370" />
               <p class="characteristic-text">Дизайнерские решения</p>
             </li>
@@ -157,7 +159,7 @@
               <div class="member-dscr">
                 <h3 class="member-title">Игорь Демьяненко</h3>
                 <p class="member-position" lang="en">Product Designer</p>
-                <ul class="team-social-list list">
+                <ul class="team-social-list">
                   <li class="team-social-item">
                     <a
                       class="team-social-link"
@@ -217,7 +219,7 @@
               <div class="member-dscr">
                 <h3 class="member-title">Ольга Репина</h3>
                 <p class="member-position" lang="en">Frontend Developer</p>
-                <ul class="team-social-list list">
+                <ul class="team-social-list">
                   <li class="team-social-item">
                     <a
                       class="team-social-link"
@@ -277,7 +279,7 @@
               <div class="member-dscr">
                 <h3 class="member-title">Николай Тарасов</h3>
                 <p class="member-position" lang="en">Marketing</p>
-                <ul class="team-social-list list">
+                <ul class="team-social-list">
                   <li class="team-social-item">
                     <a
                       class="team-social-link"
@@ -337,7 +339,7 @@
               <div class="member-dscr">
                 <h3 class="member-title">Михаил Ермаков</h3>
                 <p class="member-position" lang="en">UI Designer</p>
-                <ul class="team-social-list list">
+                <ul class="team-social-list">
                   <li class="team-social-item">
                     <a
                       class="team-social-link"
@@ -397,7 +399,7 @@
       <section class="section">
         <div class="container clients-thmb">
           <p class="clients-title">Постоянные клиенты</p>
-          <ul class="clients-list list">
+          <ul class="clients-list">
             <li class="clients-item">
               <a href="" class="clients-link">
                 <svg
@@ -526,7 +528,9 @@
     <footer>
       <div class="container footer">
         <div class="footer-contacts">
-          <a href="./index.html" class="logo foot"><span>Web</span>Studio</a>
+          <a href="./index.html" class="logo foot"
+            ><span class="logo--pre-color">Web</span>Studio</a
+          >
           <address>
             <p class="street">г. Киев, пр-т Леси Украинки, 26</p>
             <ul class="contacts list">
@@ -537,7 +541,7 @@
         </div>
         <div class="footer-social">
           <p class="footer-social-title">присоединяйтесь</p>
-          <ul class="footer-social-list list">
+          <ul class="footer-social-list">
             <li class="footer-social-item">
               <a
                 class="footer-social-link"
