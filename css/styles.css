@@ -40,7 +40,16 @@ ul {
   margin-bottom: 0;
 }
 
-.visually-hidden {
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.--visually-hidden {
   position: absolute;
   white-space: nowrap;
   width: 1px;
@@ -77,16 +86,6 @@ header {
   padding-top: 25px;
   padding-bottom: 25px;
   border-bottom: 1px solid #ececec;
-}
-
-header a,
-footer a {
-  text-decoration: none;
-}
-
-ul {
-  list-style: none;
-  padding-left: 0;
 }
 
 .--button {
@@ -221,7 +220,7 @@ ul {
 
 /* < !-- Герой начало --> */
 
-.hero {
+.hero__section {
   padding-top: 200px;
   padding-bottom: 200px;
   max-width: 1920px;
@@ -264,22 +263,15 @@ ul {
   font-size: 0px;
 }
 
-/* .features {
-  display: flex;
-} */
-
-.section-features {
+.features__section {
   padding-top: 94px;
 }
 
-.features-list {
+.features__list {
   display: flex;
 }
 
-.features-list > li {
-}
-
-.features-icon-thmb {
+.features__wrapper {
   background-color: #f5f4fa;
   display: flex;
   height: 120px;
@@ -288,18 +280,15 @@ ul {
   margin-bottom: 30px;
 }
 
-.features-icon {
+.features__item {
+  width: 270px;
 }
 
-.features-colum {
-  width: 270px;
+.features__item:not(:last-child) {
   margin-right: 30px;
 }
-.features-colum:last-child {
-  margin-right: 0;
-}
 
-.features-title {
+.features__title {
   margin-bottom: 10px;
 
   font-weight: 700;
@@ -311,7 +300,7 @@ ul {
   margin-bottom: 10px;
 }
 
-.features-description {
+.features__description {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
@@ -394,7 +383,7 @@ ul {
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.member-li:not(:last-child) {
+.member-li:not(:last child) {
   margin-right: 30px;
 }
 
