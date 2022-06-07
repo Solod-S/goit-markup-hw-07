@@ -306,19 +306,21 @@ header {
   letter-spacing: 0.03em;
 }
 
-.characteristic-list {
+.characteristic__list {
   display: flex;
 }
 
-.characteristic-item {
+.characteristic__item {
   position: relative;
 }
 
-.characteristic-img {
+.characteristic__img {
   display: block;
 }
-
-.characteristic-text {
+.characteristic__item:not(:last-child) {
+  margin-right: 30px;
+}
+.characteristic__text {
   position: absolute;
   display: flex;
   justify-content: center;
@@ -344,15 +346,7 @@ header {
   background: rgba(47, 48, 58, 0.8);
 }
 
-.characteristic-list > li {
-  margin-right: 30px;
-}
-
-.characteristic-list > li:last-child {
-  margin-right: 0;
-}
-
-.characteristic-title {
+.characteristic__title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.2;
