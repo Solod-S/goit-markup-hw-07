@@ -261,24 +261,30 @@
       </section>
     </main>
     <!--Футер-->
-    <footer>
-      <div class="container footer">
-        <div class="footer-contacts">
-          <a href="./index.html" class="logo foot"><span>Web</span>Studio</a>
-          <address>
-            <p class="street">г. Киев, пр-т Леси Украинки, 26</p>
-            <ul class="contacts list">
-              <li><a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-              <li><a class="link" href="tel:+380961111111">+38 096 111 11 11</a></li>
+    <footer class="footer__section">
+      <div class="footer__wrapper container">
+        <div class="footer__contacts-wrapper">
+          <a href="./index.html" class="logo logo--footer-modificator"
+            ><span class="logo--pre-color">Web</span>Studio</a
+          >
+          <address class="address">
+            <p class="address__street">г. Киев, пр-т Леси Украинки, 26</p>
+            <ul class="address__contact-list">
+              <li class="address__contact-item">
+                <a class="address__link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+              </li>
+              <li class="address__contact-item">
+                <a class="address__link" href="tel:+380961111111">+38 096 111 11 11</a>
+              </li>
             </ul>
           </address>
         </div>
-        <div class="footer-social">
-          <p class="footer-social-title">присоединяйтесь</p>
-          <ul class="footer-social-list list">
-            <li class="footer-social-item">
+        <div class="footer__social-wrapper">
+          <p class="footer__social-title footer-social-title">присоединяйтесь</p>
+          <ul class="social__list">
+            <li class="social__item">
               <a
-                class="footer-social-link"
+                class="social__link social__link--footer-modificator"
                 href="https://www.instagram.com/"
                 target="_blank"
                 rel="noopener noreferrer nofollow"
@@ -288,9 +294,9 @@
                 </svg>
               </a>
             </li>
-            <li class="footer-social-item">
+            <li class="social__item">
               <a
-                class="footer-social-link"
+                class="social__link social__link--footer-modificator"
                 href="https://twitter.com/?lang=ru"
                 target="_blank"
                 rel="noopener noreferrer nofollow"
@@ -300,21 +306,21 @@
                 </svg>
               </a>
             </li>
-            <li class="footer-social-item">
+            <li class="social__item">
               <a
-                class="footer-social-link"
+                class="social__link social__link--footer-modificator"
                 href="https://www.facebook.com//"
                 target="_blank"
                 rel="noopener noreferrer nofollow"
               >
-                <svg width="20px" height="20px" aria-label="Фейсбук">
+                <svg width="20px" height="20px">
                   <use href="./images/symbol-defs.svg#icon-facebook"></use>
                 </svg>
               </a>
             </li>
-            <li class="footer-social-item">
+            <li class="social__item">
               <a
-                class="footer-social-link"
+                class="social__link social__link--footer-modificator"
                 href="https://www.linkedin.com/"
                 target="_blank"
                 rel="noopener noreferrer nofollow"
@@ -326,14 +332,20 @@
             </li>
           </ul>
         </div>
-        <div class="footer-subscribe">
-          <form class="footer-form">
+        <div class="footer__subscribe-wrapper">
+          <form class="footer__form">
             <label for="email">Подпишитесь на рассылку</label>
-            <div class="footer-form-wrapper">
-              <input type="email" name="email" id="email" placeholder="E-mail" />
-              <button class="footer-form-btn" type="submit">
+            <div class="footer__form-wrapper">
+              <input
+                class="footer__email-input"
+                type="email"
+                name="email"
+                id="email"
+                placeholder="E-mail"
+              />
+              <button class="footer__email-button" type="submit">
                 Подписаться
-                <svg class="footer-form-svg" width="24px" height="24px">
+                <svg class="footer__button-icon" width="24px" height="24px">
                   <use href="./images/symbol-defs.svg#icon-telegram"></use>
                 </svg>
               </button>
