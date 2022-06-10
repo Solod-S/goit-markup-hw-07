@@ -28,3 +28,29 @@
     background-color: #{$bgc};
   }
 }
+@mixin hovershadow($plug: none) {
+  &:hover {
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+      0px 2px 1px rgba(0, 0, 0, 0.2);
+    min-width: #{$plug};
+  }
+}
+@mixin focusshadow($plug: none) {
+  &:focus {
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+      0px 2px 1px rgba(0, 0, 0, 0.2);
+    min-width: #{$plug};
+  }
+}
+@mixin hoverSocial($fill: $primaryWhiteColor, $bgc: $primaryAccentColor) {
+  &:hover {
+    fill: #{$fill};
+    background-color: #{$bgc};
+  }
+}
+@mixin focusSocial($fill: $primaryWhiteColor, $bgc: $primaryAccentColor) {
+  &:focus {
+    fill: #{$fill};
+    background-color: #{$bgc};
+  }
+}

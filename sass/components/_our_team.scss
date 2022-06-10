@@ -1,0 +1,91 @@
+// .team__member-item:hover {
+//   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+//     1px 4px 6px rgba(0, 0, 0, 0.16);
+// }
+
+.team {
+  background-color: #f5f4fa;
+  max-width: 1920px;
+  margin: 0 auto;
+  &__title {
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+  }
+  &__member-list {
+    display: flex;
+  }
+  &__member-item {
+    @include hovershadow;
+    @include focusshadow;
+    @include marginRightNotLastCh(30px);
+    &:hover .avatar__img--base,
+    &:hover .avatar::after {
+      position: absolute;
+      top: 0;
+      left: 0;
+      transform: scale(1.2) rotate(11deg);
+      display: block;
+      opacity: 1;
+    }
+    width: 270px;
+    cursor: pointer;
+    background-color: $primaryWhiteColor;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0), 0px 4px 4px rgba(0, 0, 0, 0),
+      1px 4px 6px rgba(0, 0, 0, 0);
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
+.avatar {
+  position: relative;
+  overflow: hidden;
+  &__img {
+    display: block;
+  }
+  &__img--base {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: scale(1) rotate(0deg);
+    display: block;
+    background-color: rgba(47, 48, 58, 0.4);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
+
+.avatar::after {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(47, 48, 58, 0.2);
+  opacity: 0;
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.dscr {
+  padding-bottom: 30px;
+  padding-top: 30px;
+  &__name {
+    margin-bottom: 10px;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+
+    text-align: center;
+  }
+  &__text {
+    margin-bottom: 16px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+
+    text-align: center;
+  }
+}

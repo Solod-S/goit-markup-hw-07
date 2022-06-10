@@ -347,7 +347,7 @@ ul {
 
 /* < !--Наша команда--> */
 
-.team__section {
+/* .team__section {
   background-color: #f5f4fa;
   max-width: 1920px;
   margin: 0 auto;
@@ -481,7 +481,7 @@ ul {
 
 .social__link:not(:last-child) {
   margin-right: 10px;
-}
+} */
 
 /* Постоянные клиенты */
 
