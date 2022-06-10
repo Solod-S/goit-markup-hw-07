@@ -2,8 +2,8 @@
   display: inline-block;
   padding: 10px 0;
 
-  color: var(--primary-bg-color);
-  background-color: var(--primary-accent-color);
+  color: $primaryWhiteColor;
+  background-color: $primaryAccentColor;
   cursor: pointer;
   border: none;
   border-radius: 4px;
