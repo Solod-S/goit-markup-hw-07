@@ -1,6 +1,9 @@
 @import './base/_modern-normalize.scss';
 @import './base/_variables.scss';
-@import './base/my-preset';
+@import './base/_my-preset';
+@import './utils/placeholders';
 @import './utils/_visually-hidden.scss';
+@import './utils/_mixims.scss';
 // ---------------------------------------------------header-----------------------------------------------------------------------------------------------
 @import './components/_header.scss';
+@import './components/_logo.scss';

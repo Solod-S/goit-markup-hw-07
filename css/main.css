@@ -370,57 +370,34 @@ header {
   position: relative;
 }
 
-.navigation__link {
-  padding: 30px 0;
-}
-
 .navigation__item:not(:last-child) {
   margin-right: 50px;
 }
 
-.navigation__contact-list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin-left: auto;
-  padding: 0;
-}
-
-.logo {
-  margin-right: 90px;
-  color: #000000;
-  font-family: 'Raleway', sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.2;
-  letter-spacing: 0.03em;
-}
-
-.logo--pre-color {
-  color: var(--primary-accent-color);
-}
-
 .navigation__link {
+  padding: 30px 0;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.1;
   letter-spacing: 0.02em;
-  color: var(--primary-title-color);
+  color: #757575;
   -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.navigation__link--contact {
-  color: var(--primary-text-color);
-  position: relative;
-  -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill cubic-bezier(0.4, 0, 0.2, 1);
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill cubic-bezier(0.4, 0, 0.2, 1);
+.navigation__link:hover {
+  color: #2196f3;
+  fill: #2196f3;
 }
 
-.navigation__link:hover,
 .navigation__link:focus {
-  color: var(--primary-accent-color);
-  fill: var(--primary-accent-color);
+  color: #2196f3;
+  fill: #2196f3;
+}
+
+.navigation__icon {
+  fill: currentColor;
+  margin-right: 10px;
 }
 
 .navigation__link--slider::after {
@@ -445,17 +422,18 @@ header {
           transform: scaleX(1);
 }
 
-.navigation__icon {
-  fill: currentColor;
-  margin-right: 10px;
+.navigation__contact-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: auto;
 }
 
 .navigation__link--current-page-status {
-  color: var(--primary-accent-color);
+  color: #2196f3;
 }
 
-.navigation__item--current-page-status::after {
-  content: '';
+.navigation__link--current-page-status::after {
   position: absolute;
   bottom: -28px;
   left: 0;
@@ -465,5 +443,19 @@ header {
           transform: scalex(1);
   background: #2196f3;
   border-radius: 2px;
+}
+
+.logo {
+  margin-right: 90px;
+  color: #000000;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+
+.logo--pre-color {
+  color: #2196f3;
 }
 /*# sourceMappingURL=main.css.map */

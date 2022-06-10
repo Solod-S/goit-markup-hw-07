@@ -1,0 +1,18 @@
+@mixin marginRightNotLastCh($selector) {
+  &:not(:last-child) {
+    margin-right: #{$selector};
+  }
+}
+
+@mixin hover($color: $primaryAccentColor, $fill: $primaryAccentColor) {
+  &:hover {
+    color: #{$color};
+    fill: #{$fill};
+  }
+}
+@mixin focus($color: $primaryAccentColor, $fill: $primaryAccentColor) {
+  &:focus {
+    color: #{$color};
+    fill: #{$fill};
+  }
+}
