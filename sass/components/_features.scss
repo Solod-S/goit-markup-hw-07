@@ -1,0 +1,33 @@
+.features {
+  padding-top: 94px;
+  &__list {
+    display: flex;
+  }
+  &__wrapper {
+    background-color: $primaryBgColor;
+    display: flex;
+    height: 120px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  &__item {
+    width: 270px;
+    @include marginRightNotLastCh(30px);
+  }
+  &__title {
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    margin-bottom: 10px;
+  }
+  &__description {
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+  }
+}
