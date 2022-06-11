@@ -83,7 +83,7 @@
     line-height: calc(14 / 12);
     letter-spacing: 0.01em;
 
-    color: #757575;
+    color: $labelColor;
   }
   &__input {
     padding-left: 42px;
@@ -127,7 +127,7 @@
     line-height: calc(14 / 12);
     letter-spacing: 0.01em;
 
-    color: #757575;
+    color: $labelColor;
   }
   &__textarea-field placeholder {
     font-family: 'Roboto', sans-serif;
@@ -145,7 +145,7 @@
     font-size: 14px;
     line-height: calc(24 / 14);
     letter-spacing: 0.03em;
-    color: #757575;
+    color: $labelColor;
   }
   &__checkbox-link {
     color: $primaryAccentColor;

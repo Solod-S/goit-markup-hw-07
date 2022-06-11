@@ -28,9 +28,9 @@
 
     width: 170px;
     height: 92px;
-    border: 1px solid #afb1b8;
+    border: 1px solid $thrdBgColor;
     border-radius: 4px;
-    fill: #afb1b8;
+    fill: $thrdBgColor;
   }
   &__link:hover,
   &__link:focus {
