@@ -24,12 +24,14 @@
   &:hover {
     color: #{$color};
     background-color: #{$bgc};
+    fill: $primaryAccentColor;
   }
 }
 @mixin focusBtn($color: $primaryAccentColor, $bgc: $primaryWhiteColor) {
   &:focus {
     color: #{$color};
     background-color: #{$bgc};
+    fill: $primaryAccentColor;
   }
 }
 @mixin hovershadow($plug: none) {
