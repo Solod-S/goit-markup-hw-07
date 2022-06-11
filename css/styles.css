@@ -877,7 +877,7 @@ ul {
       -moz-appearance: none;
            appearance: none; */
 
-.modal__checkbox-field input:checked + .modal__checkbox-square {
+/* .modal__checkbox-field input:checked + .modal__checkbox-square {
   background-image: url(../images/check.svg);
   width: 16px;
   height: 15px;
@@ -916,6 +916,7 @@ ul {
 .modal__button:focus {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
+*/
 */
 
 /* Разрешить клацать
