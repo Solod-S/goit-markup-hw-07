@@ -7,15 +7,11 @@
     <title>Студия</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
+  <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
-    />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.css" />
   </head>
   <body>
     <!-- Шапка сайта -->
@@ -261,7 +257,7 @@
       </section>
     </main>
     <!--Футер-->
-    <footer class="footer__section">
+    <footer class="footer">
       <div class="footer__wrapper container">
         <div class="footer__contacts-wrapper">
           <a href="./index.html" class="logo logo--footer-modificator"
@@ -280,11 +276,11 @@
           </address>
         </div>
         <div class="footer__social-wrapper">
-          <p class="footer__social-title footer-social-title">присоединяйтесь</p>
-          <ul class="social__list">
+          <p class="footer__social-title">присоединяйтесь</p>
+          <ul class="social">
             <li class="social__item">
               <a
-                class="social__link social__link--footer-modificator"
+                class="social__link footer--social-modificator"
                 href="https://www.instagram.com/"
                 target="_blank"
                 rel="noopener noreferrer nofollow"
@@ -296,7 +292,7 @@
             </li>
             <li class="social__item">
               <a
-                class="social__link social__link--footer-modificator"
+                class="social__link footer--social-modificator"
                 href="https://twitter.com/?lang=ru"
                 target="_blank"
                 rel="noopener noreferrer nofollow"
@@ -308,7 +304,7 @@
             </li>
             <li class="social__item">
               <a
-                class="social__link social__link--footer-modificator"
+                class="social__link footer--social-modificator"
                 href="https://www.facebook.com//"
                 target="_blank"
                 rel="noopener noreferrer nofollow"
@@ -320,7 +316,7 @@
             </li>
             <li class="social__item">
               <a
-                class="social__link social__link--footer-modificator"
+                class="social__link footer--social-modificator"
                 href="https://www.linkedin.com/"
                 target="_blank"
                 rel="noopener noreferrer nofollow"
@@ -332,20 +328,20 @@
             </li>
           </ul>
         </div>
-        <div class="footer__subscribe-wrapper">
-          <form class="footer__form">
-            <label class="footer__form-label" for="email">Подпишитесь на рассылку</label>
-            <div class="footer__form-wrapper">
+        <div class="subscribe">
+          <form class="subscribe__form">
+            <label class="subscribe__form-label" for="email">Подпишитесь на рассылку</label>
+            <div class="subscribe__form-wrapper">
               <input
-                class="footer__form-email-input"
+                class="subscribe__form-email-input"
                 type="email"
                 name="email"
                 id="email"
                 placeholder="E-mail"
               />
-              <button class="footer__form-email-button" type="submit">
+              <button class="subscribe__form-email-button" type="submit">
                 Подписаться
-                <svg class="footer__form-button-icon" width="24px" height="24px">
+                <svg class="subscribe__form-button-icon" width="24px" height="24px">
                   <use href="./images/symbol-defs.svg#icon-telegram"></use>
                 </svg>
               </button>
