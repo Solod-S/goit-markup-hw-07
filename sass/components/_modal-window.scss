@@ -18,6 +18,9 @@
   transform: translate(-50%, -50%) scale(0.9);
 }
 
+.no-scroll {
+  overflow: hidden;
+}
 .modal {
   position: absolute;
   padding: 40px;
