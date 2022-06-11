@@ -21,7 +21,7 @@
   &__member-item {
     @include hovershadow;
     @include focusshadow;
-    @include marginRightNotLastCh(30px);
+    @include marginRightNotLastCh();
     &:hover .avatar__img--base,
     &:hover .avatar::after {
       position: absolute;

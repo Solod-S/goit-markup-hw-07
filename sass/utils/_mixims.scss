@@ -1,4 +1,4 @@
-@mixin marginRightNotLastCh($selector) {
+@mixin marginRightNotLastCh($selector: 30px) {
   &:not(:last-child) {
     margin-right: #{$selector};
   }
