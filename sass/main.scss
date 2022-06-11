@@ -1,9 +1,9 @@
-@import './base/_modern-normalize.scss';
-@import './base/_variables.scss';
+@import './base/_modern-normalize';
+@import './base/_variables';
 @import './base/_my-preset';
 @import './utils/placeholders';
-@import './utils/_visually-hidden.scss';
-@import './utils/_mixims.scss';
+@import './utils/_visually-hidden';
+@import './utils/_mixims';
 // ---------------------------------------------------Header-----------------------------------------------------------------------------------------------
 @import './components/_header';
 @import './components/_logo';
@@ -21,3 +21,5 @@
 // ---------------------------------------------------Footer-----------------------------------------------------------------------------------------------
 @import './components/_subscribe';
 @import './components/_footer';
+// ---------------------------------------------------ModalWindow-----------------------------------------------------------------------------------------------
+@import './components/_modal-window';
