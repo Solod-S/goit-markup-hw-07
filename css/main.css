@@ -1259,8 +1259,8 @@ header {
   width: 16px;
   height: 15px;
   background-size: contain;
+  border: none;
   background-color: #2196f3;
-  border-color: #2196f3;
   background-origin: border-box;
 }
 
@@ -1270,8 +1270,8 @@ header {
   width: 16px;
   height: 15px;
   border: 1px solid #212121;
-  -webkit-transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal__button {
